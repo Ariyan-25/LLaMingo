@@ -7,8 +7,8 @@ Llamingo is a sleek, local AI chatbot web app built using Flask and powered by t
 ## ✨ Features
 
 - 💬 Real-time chat interface with typing indicator
-- 💾 View and clear chat history
-- 🎨 Modern UI with chat bubbles and custom emoji bot icon
+- 💾 View your chat history
+- 🎨 Modern UI with chat bubbles 
 - 🔌 Powered by Ollama's LLaMA 3 model running locally
 - ⚡ Fast and private (no internet required for AI)
 
@@ -27,5 +27,5 @@ Llamingo is a sleek, local AI chatbot web app built using Flask and powered by t
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/llamingo.git
+   git clone https://github.com/Ariyan-25/llamingo.git
    cd llamingo
