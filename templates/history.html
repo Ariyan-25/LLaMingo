@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat History</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="chat-container">
+    <h2>Chat History</h2>
+    <div class="chat-box">
+      {% for user, bot, time in history %}
+        <div class="chat-bubble user">You: {{ user }}</div>
+        <div class="chat-bubble bot">Bot: {{ bot }}</div>
+      {% endfor %}
+    </div>
+    <a href="/"><button>Back to Chat</button></a>
+  </div>
+</body>
+</html>

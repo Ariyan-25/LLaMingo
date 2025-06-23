@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LLaMingo</title>
+  <link rel="icon" href="{{ url_for('static', filename='bot.png') }}" type="image/png">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="chat-container">
+    <h2>🤖🦩LLaMingo</h2>
+    <div id="chat-box" class="chat-box"></div>
+
+    <div class="typing-indicator" id="typing-indicator">Bot is typing<span>.</span><span>.</span><span>.</span></div>
+
+    <form id="chat-form">
+      <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off" required />
+      <button type="submit">Send</button>
+    </form>
+
+    <div class="controls">
+      <a href="/history"><button>View Chat History</button></a>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
