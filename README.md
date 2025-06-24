@@ -27,6 +27,7 @@ Llamingo is a sleek, local AI chatbot web app built using Flask and powered by t
 - CSS  
 - JavaScript (vanilla)  
 - Jinja2 templating (via Flask)
+<<<<<<< HEAD
 
 ---
 
@@ -42,6 +43,12 @@ Llamingo is a sleek, local AI chatbot web app built using Flask and powered by t
 
 ## Installation & Setup Guide
 
+=======
+## Installation & Setup Guide
+
+---
+
+>>>>>>> 5fb03fdb6bbde368e33514099434502288a4737b
 ### Prerequisites
 
 - Python 3.7+
