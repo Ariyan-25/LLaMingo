@@ -1,4 +1,4 @@
-# 🤖🦩 Llamingo – A Local AI Chatbot Powered by Ollama
+# 🤖🦩 LLaMingo – A Local AI Chatbot Powered by Ollama
 
 Llamingo is a sleek, local AI chatbot web app built using Flask and powered by the LLaMA 3 model from [Ollama](https://ollama.com/). It provides a friendly chat interface for general-purpose conversations, running entirely offline on your machine.
 
